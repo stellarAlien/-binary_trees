@@ -1,7 +1,7 @@
 # -binary_trees
 # C - Binary trees :deciduous_tree:
 
-![binary_trees](https://gfycat.com/fr/grandshortcowrie.gif)
+![binary_trees](https://thumbs.gfycat.com/GrandShortCowrie-mobile.mp4)
 
 A project where i learned about implementing, verifying, manipulating binary trees and it's use cases
 ## Tests :heavy_check_mark:
