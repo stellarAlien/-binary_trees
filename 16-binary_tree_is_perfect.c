@@ -1,4 +1,9 @@
 #include"binary_trees.h"
+/**
+ *binary_tree_is_leaf - checks if a node in a bt is a leaf
+ * @node: node to check if leaf
+ * Return: 1 if leaf else 0
+ */
 int binary_tree_is_leaf(const binary_tree_t *node)
 {
 	if (node == NULL || node->right || node->left)
@@ -35,7 +40,11 @@ size_t binary_tree_height(const binary_tree_t *tree)
 		return (1 + left);
 	return (1 + right);
 }
-
+/**
+ * binary_tree_is_perfect - checks if tree is perfect
+ * @tree:  binary_tree_t
+ * Return: int
+ */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
 	binary_tree_t *l, *r;
